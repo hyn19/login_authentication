@@ -1,3 +1,16 @@
+// server.js (for Node.js environment)
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html'); // Ensure index.html is sent for front-end code
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     var isModalOpen = false; // Flag variable to track whether the language modal is open
 
