@@ -93,4 +93,4 @@
             isModalOpen = false;
         }
     });
-});
+
