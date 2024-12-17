@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var isModalOpen = false; // Flag variable to track whether the language modal is open
+
 
     // Function to toggle sidebar menu
     function toggleMenu() {
